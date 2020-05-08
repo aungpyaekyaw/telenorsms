@@ -2,7 +2,9 @@
     "name": "aungpyaekyaw/telenorsms",
     "description": "Laravel Notificattion Channel for Telenor SMS.",
     "require": {
-        "guzzlehttp/guzzle": "^6.5",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "require-dev": {
         "laravel/laravel": "^7.6"
     },
     "authors": [
