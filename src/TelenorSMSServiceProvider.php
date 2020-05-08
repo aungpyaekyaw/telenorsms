@@ -50,7 +50,7 @@ class TelenorSMSServiceProvider extends ServiceProvider
         });
 
         Notification::resolved(function (ChannelManager $service) {
-            $service->extend('smspoh', function ($app) {
+            $service->extend('telenorsms', function ($app) {
                 return new TelenorSMSChannel($app[TelenorSMSClient::class]);
             });
         });
@@ -60,7 +60,7 @@ class TelenorSMSServiceProvider extends ServiceProvider
     public function bootForConsole(){
 
         $this->publishes([
-            __DIR__.'/../config/telenorbulksms.php' => config_path('telenorbulksms.php'),
-        ], 'telenorbulksms.config');
+            __DIR__.'/../config/telenorsms.php' => config_path('telenorsms.php'),
+        ], 'telenorsms.config');
     }
 }
