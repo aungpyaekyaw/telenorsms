@@ -1,0 +1,14 @@
+{
+    "name": "aungpyaekyaw/telenorsms",
+    "description": "Laravel Notificattion Channel for Telenor SMS.",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "laravel/laravel": "^7.6"
+    },
+    "authors": [
+        {
+            "name": "Aung Pyae",
+            "email": "aungpyaekyaw@outlook.com"
+        }
+    ]
+}
