@@ -1,6 +1,7 @@
 {
     "name": "aungpyaekyaw/telenorsms",
     "description": "Laravel Notificattion Channel for Telenor SMS.",
+    "version": "1.0.1",
     "require": {
         "guzzlehttp/guzzle": "^6.5"
     },
@@ -12,5 +13,8 @@
             "name": "Aung Pyae",
             "email": "aungpyaekyaw@outlook.com"
         }
+    ],
+    "license": [
+        "MIT"
     ]
 }
