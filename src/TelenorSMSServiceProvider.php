@@ -1,11 +1,12 @@
 <?php
 namespace TelenorSMS;
+
 use Illuminate\Support\ServiceProvider;
 use GuzzleHttp\Client as HttpClient;
 use Illuminate\Support\Facades\Route;
 use TelenorSMS\Console\Commands\AuthorizeTelenorCommand;
 use Illuminate\Notifications\ChannelManager;
-use Illuminate\Notifications\Notification;
+use Illuminate\Support\Facades\Notification;
 
 class TelenorSMSServiceProvider extends ServiceProvider
 {
