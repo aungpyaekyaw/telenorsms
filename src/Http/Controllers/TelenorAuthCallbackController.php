@@ -1,5 +1,5 @@
 <?php
-namespace TelenorSMS\Http\Controller;
+namespace TelenorSMS\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
