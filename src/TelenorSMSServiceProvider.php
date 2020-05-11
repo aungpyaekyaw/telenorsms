@@ -47,7 +47,7 @@ class TelenorSMSServiceProvider extends ServiceProvider
         $this->app->make('telenorsms.console.kernel');
 
         $this->app->singleton(TelenorSMSClient::class, static function($app){
-            return new TelenorSmsClient(new HttpClient([ 'base_uri' => config('telenorsms.base_url')]));
+            return new TelenorSMSClient(new HttpClient([ 'base_uri' => config('telenorsms.base_url')]));
         });
 
         Notification::resolved(function (ChannelManager $service) {
